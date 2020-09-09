@@ -1,0 +1,11 @@
+/*koko sivun asetukset*/
+body {
+  background-color: #ff99ff
+}
+
+/*pääotsikon asetukset*/
+h1 {
+  font-size: 50px;
+  font-family: Impact, Charcoal, sans-serif;
+  color: #ff0000;
+}
