@@ -3,7 +3,7 @@ function lahetys()
 var empt = document.inputs["etunimi"]["sukunimi"].value;
 if (empt == "")
 {
-alert("Kirjoita nimesi");
+alert("Et täyttänyt kaikkia kohtia");
 return false;
 }
 else
