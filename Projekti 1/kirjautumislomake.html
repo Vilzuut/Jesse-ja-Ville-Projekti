@@ -10,25 +10,28 @@
         </head>
        <body>
 
+<!--Koko sivun tyyli-->
+ <div style = "background-color: #ff99ff;">
+
   <!--Pääotsikko sivulle-->
-  <h1>Ilmoittautumis lomake</h1>
+  <h1>KIRJAUTUMISLOMAKE</h1>
 
   <!--Tekstiboxit-->
-  <p>Etunimi</p>
+  <p id="väliotsikko">Etunimi</p>
     <input type="text" id="etunimi" name="etunimi"/>
 
    <br>
    <br>
 
 
-   <p>Sukunimi</p>
+   <p id="väliotsikko">Sukunimi</p>
     <input type="text" id="sukunimi" name="sukunimi"/>
 
    <br>
    <br>
 
    <!--Valinta laatikot-->
-   <p>Millainen koneen käyttäjä olet?</p>
+   <p id="väliotsikko">Millainen koneen käyttäjä olet?</p>
    <input type="checkbox" id="pelaaja" name="pelaaja"> <label for="pelaaja">Pelaaja</label>
    <br>
    <input type="checkbox" id="opiskelija" name="opiskelija"> <label for="opiskelija">Opiskelija</label>
@@ -39,7 +42,7 @@
    <br>
    <br>
 
-   <p>Mitä mieltä olet sivustamme?</p>
+   <p id="väliotsikko">Mitä mieltä olet sivustamme?</p>
    <input type="radio" id="paras" name="paras"> <label for="paras">Paras sivusto ikinä!</label>
    <br>
    <input type="radio" id="ok" name="ok"> <label for="ok">Ihan OK</label>
@@ -48,7 +51,7 @@
   <br>
   <br>
 
-  <p>Mikä on lempi oppiaineesi Keudassa</p>
+  <p id="väliotsikko">Mikä on lempi oppiaineesi Keudassa</p>
 <td>
 	<select name="oppiaine" id="oppiaine">
 		<option selected="selected" value="-1">Valitse lempi aineesi</option>
@@ -60,12 +63,12 @@
       <option value="6">Jokin muu</option>
 		</select>
 
-<p>Miten kehittäisit sivuamme?</p>
+<p id="väliotsikko">Miten kehittäisit sivuamme?</p>
   <input type="text" id="kehitys" name="kehitys">
 <br>
 <br>
 <button type="button" onclick="lähetys" name="lähetä">Lähetä</button>
 
-
+</div>
       </body>
      </html>
