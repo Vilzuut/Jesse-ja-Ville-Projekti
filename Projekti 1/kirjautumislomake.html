@@ -1,42 +1,70 @@
-  <!DOCTYPE html>
-  <html lang="en" dir="ltr">
-    <head>
-     <meta charset="utf-8">
-       <title>Kirjautumislomake</title>
+   <!DOCTYPE html>
+   <html lang="en" dir="ltr">
+     <head>
+      <meta charset="utf-8">
+        <title>Kirjautumislomake</title>
 
-          <!--css ja js linkitys-->
-         <link rel="stylesheet" type="text/css" href="testi3.css">
-           <script type="text/javascript" src="kirjautumislomake.js"> </script>
-       </head>
-      <body>
+           <!--css ja js linkitys-->
+          <link rel="stylesheet" type="text/css" href="testi3.css">
+            <script type="text/javascript" src="kirjautumislomake.js"> </script>
+        </head>
+       <body>
 
   <!--Pääotsikko sivulle-->
-  <h1>Ilmoittautumislomake</h1>
+  <h1>Ilmoittautumis lomake</h1>
 
   <!--Tekstiboxit-->
   <p>Etunimi</p>
-   <input type="text" name="etunimi"/>
+    <input type="text" id="etunimi" name="etunimi"/>
 
-  <br>
-  <br>
-
-  <p>Sukunimi</p>
-   <input type="text" name="sukunimi"/>
-
-  <br>
+   <br>
    <br>
 
-  <!--Valinta laatikot-->
-  <p>Millainen koneen käyttäjä olet?</p>
-  <input type="checkbox" id="pelaaja" name="pelaaja"> <label for="pelaaja">Pelaaja</label>
+
+   <p>Sukunimi</p>
+    <input type="text" id="sukunimi" name="sukunimi"/>
+
+   <br>
+   <br>
+
+   <!--Valinta laatikot-->
+   <p>Millainen koneen käyttäjä olet?</p>
+   <input type="checkbox" id="pelaaja" name="pelaaja"> <label for="pelaaja">Pelaaja</label>
+   <br>
+   <input type="checkbox" id="opiskelija" name="opiskelija"> <label for="opiskelija">Opiskelija</label>
+   <br>
+   <input type="checkbox" id="enkäytä" name="enkäytä"> <label for="enkäytä">En käytä tietokonetta</label>
+   <br>
+   <input type="checkbox" id="muuta" name="muuta"> <label for="muuta">KKäytän tietokonetta johonkin muuhun</label>
+   <br>
+   <br>
+
+   <p>Mitä mieltä olet sivustamme?</p>
+   <input type="radio" id="paras" name="paras"> <label for="paras">Paras sivusto ikinä!</label>
+   <br>
+   <input type="radio" id="ok" name="ok"> <label for="ok">Ihan OK</label>
+   <br>
+  <input type="radio" id="paska" name="paska"> <label for="paska">Aivan paska sivu</label>
   <br>
-  <input type="checkbox" id="opiskelija" name="opiskelija"> <label for="opiskelija">Opiskelija</label>
-  <br>
-  <input type="checkbox" id="enkäytä" name="enkäytä"> <label for="enkäytä">En käytä tietokonetta</label>
-  <br>
-  <input type="checkbox" id="muuta" name="muuta"> <label for="muuta">KKäytän tietokonetta johonkin muuhun</label>
   <br>
 
-  <p></p>
-     </body>
-    </html>
+  <p>Mikä on lempi oppiaineesi Keudassa</p>
+<td>
+	<select name="oppiaine" id="oppiaine">
+		<option selected="selected" value="-1">Valitse lempi aineesi</option>
+		<option value="1">Matikka</option>
+			<option value="2">Jyrin tunnit</option>
+			<option value="3">Äikkä</option>
+			<option value="4">Välitunti</option>
+      <option value="5">Lintsaus</option>
+      <option value="6">Jokin muu</option>
+		</select>
+
+<p>Miten kehittäisit sivuamme?</p>
+  <input type="text" id="kehitys" name="kehitys">
+
+
+
+
+      </body>
+     </html>
