@@ -1,0 +1,129 @@
+header
+{
+  height: 100px;
+  background: #FF1493;
+}
+body{
+  background-image: url("https://images.wallpaperscraft.com/image/planet_space_universe_127497_1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section{
+  margin: auto;
+  font-size: 24px;
+}
+h1
+{
+  color: #000;
+  padding: 22px 0 0 20px;
+}
+form{
+  background: #4B0082	;
+  width: 600px;
+  color: white;
+  padding: 20px;
+}
+input {
+  width: 580px;
+  height: 40px;
+  padding-left: 20px;
+}
+select, #monirivi {
+  width: 580px;
+  height: 70px;
+}
+.valinta{
+  width: 20px;
+}
+#pudotus{
+  height: 20px;
+}
+en tieda
+{
+  width: 400px;
+  height: 20px;
+  background: #FF1493;
+  margin-left: 200px;
+}
+nav ul
+{
+  margin: 0 0 0 -10px;
+}
+nav li
+{
+  float: left;
+  list-style-type: none;
+  padding: 0 10px;
+}
+section
+{
+  width: 640px;
+  background: #8A2BE2;
+  margin-top: -20px;
+}
+h2
+{
+  color: red;
+  font-size: 30px;
+  padding: 10 px 0 0 10px;
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+article
+{
+  width: 400px;
+  background: #32CD32;
+}
+article p
+{
+  padding: 10px;
+}
+aside
+{
+  width: 200px;
+  height: 502px;
+  background: #32CD32;
+  float: right;
+   margin-top: -1px;
+}
+h3
+{
+  color: #32CD32;
+  padding: 10px 0 0 10px;
+}
+aside article
+{
+  width: 200px;
+  background: #32CD32;
+  color: rgb(194, 30, 30);
+}
+footer
+{
+  height: 40px;
+  background: #EDDDA1;
+  margin-top: -16px;
+}
+footer p
+{
+  padding: 10px 0 0 10px;
+}
+label
+{
+  font-weight: bold;
+}
+br
+{
+  margin-top: 5px;
+}
+input[type="text"]
+{
+  background-color: #800080	;
+}
+input[name="ei_sulle"]
+{
+  background-color: #800080	;
+}
+
+input[name="email"]
+{
+  background-color: #800080;
+}
