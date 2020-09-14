@@ -1,0 +1,27 @@
+html {
+  font-family: sans-serif;
+  }
+
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-image: url('https://images.squarespace-cdn.com/content/574ee42f4d088ee61988a074/1495269308543-A2VUM71LJ1ONFOR3F577/BG_new-5_30fpsfixed.gif?content-type=image%2Fgif');
+  background-size: cover;
+  height: 100vh;
+  padding:0;
+  margin:0;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+
+  label {
+    color: white;
+  }
