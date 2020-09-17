@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lomakedokumentti</title>
+<link rel = "stylesheet" type = "text/css" href = "tyyli2.css" />
+<script src="java.js" ></script>
+</head>
+<body>
+  <section>
+  <h1 id="otsikko">Kyselylomake</h1>
+  <form action="/admin/process-form.php" method="POST" name="lomake">
+         <label>Nimi:</label>
+         <br>
+         <input type="text" name="nimi" placeholder="Kirjoita tähän oma nimesi">
+     <p>
+     <p>
+          <label>Sähköposti:</label>
+         <br>
+         <input type="email" name="email" placeholder="Kirjoita tähän sähköpostiosoitteesi">
+     </p>
+     <p>
+          <label>Ikä:</label>
+         <br>
+         <input type="text" name="ika" placeholder = "Kirjoita tähän ikäsi numeroita" min="16" max="99">
+     </p>
+     <p><label>Mihin ryhmään kuulut?</label></p>
+     <p><select name="ryhma" size="3" required>
+       <option value="Opiskelija">Opiskelija</option>
+       <option value="Tyossa">Työssä</option>
+       <option value="Tyoton">Työtön</option>
+       <option value="Elakelainen">Eläkeläinen</option>
+     </select><p/>
+     <p>
+     <label>Suositteletko Keudaa ystävillesi</label>
+     </p>
+<p>
+<table>
+  <tr><td><input type="radio" name="suosittelu" value="kylla" class="valinta"></td><td>Kyllä</td></tr>
+  <tr><td><input type="radio" name="suosittelu" value="ei" class="valinta"></td><td>En</td></tr>
+  <tr><td><input type="radio" name="suosittelu" value="eos" class="valinta"></td><td>En osaa sanoa</td></tr>
+</table>
+</p>
+<p><label>Parasta Keudassa on:</label></p>
+<table>
+  <tr><td><input type="checkbox" name="ammatti" value="ammatti" class="valinta"></td><td>Ammattiaineet</td></tr>
+  <tr><td><input type="checkbox" name="yto" value="yto" class="valinta"></td><td>YTO-aineet</td></tr>
+  <tr><td><input type="checkbox" name="ruoka" value="ruoka" class="valinta"></td><td>Ruokatunti</td></tr>
+</table>
+<br>
+<label>Mikä on lempiaineesi Keudassa</label><br>
+<select name="mika_attribuutti" id="pudotus">
+    <option value="" selected disabled hidden>Valitse tästä</option>
+    <option value="matikka">Liikunta</option>
+    <option value="ruotsi">Matikka</option>
+    <option value="englanti">Englanti</option>
+    <option value="ammatti">Syöminen</option>
+</select>
+<p>
+<label>Kerro, miten kehittäisit opetusta Keudassa</label>
+</p>
+<textarea rows="8" name="kehitys" id="monirivi"></textarea>
+<br>
+<input type="button" value="Submit" onclick="lomakkeenTarkastus()">
+<p>
+    <input type="submit" value="Lahetä">
+</p>
+
+</form>
+</section>
+</html>
