@@ -17,41 +17,39 @@
   <h1>KIRJAUTUMISLOMAKE</h1>
 
   <!--Tekstiboxit-->
-  <p id="valiotsikko">Etunimi</p>
+  <p id="valiotsikko">Etunimi*</p>
     <input type="text" id="etunimi" name="etunimi"/>
 
    <br>
    <br>
 
 
-   <p id="väliotsikko">Sukunimi</p>
+   <p id="valiotsikko">Sukunimi*</p>
     <input type="text" id="sukunimi" name="sukunimi"/>
 
    <br>
    <br>
 
    <!--Valinta laatikot-->
-   <p id="valiotsikko">Millainen koneen käyttäjä olet?</p>
+   <p id="valiotsikko2">Millainen koneen käyttäjä olet?*</p>
    <input type="checkbox" id="pelaaja" name="pelaaja"> <label for="pelaaja">Pelaaja</label>
    <br>
    <input type="checkbox" id="opiskelija" name="opiskelija"> <label for="opiskelija">Opiskelija</label>
    <br>
    <input type="checkbox" id="enkayta" name="enkayta"> <label for="enkayta">En käytä tietokonetta</label>
    <br>
-   <input type="checkbox" id="muuta" name="muuta"> <label for="muuta">Käytän tietokonetta johonkin muuhun</label>
-   <br>
    <br>
 
-   <p id="valiotsikko">Mitä mieltä olet sivustamme?</p>
-   <input type="radio" id="paras" name="paras"> <label for="paras">Paras sivusto ikinä!</label>
+   <p id="valiotsikko3">Mitä mieltä olet sivustamme?*</p>
+   <input type="radio" id="paras" name="pallo"> <label for="paras">Paras sivusto ikinä!</label>
    <br>
-   <input type="radio" id="ok" name="ok"> <label for="ok">Ihan OK</label>
+   <input type="radio" id="ok" name="pallo"> <label for="ok">Ihan OK</label>
    <br>
-  <input type="radio" id="paska" name="paska"> <label for="paska">Aivan paska sivu</label>
+  <input type="radio" id="huono" name="pallo"> <label for="huono">Aivan huono sivu</label>
   <br>
   <br>
 
-  <p id="valiotsikko">Mikä on lempi oppiaineesi Keudassa</p>
+  <p id="valiotsikko4">Mikä on lempi oppiaineesi Keudassa*</p>
 <td>
 	<select name="oppiaine" id="oppiaine">
 		<option selected="selected" value="-1">Valitse lempi aineesi</option>
@@ -67,7 +65,7 @@
   <input type="text" id="kehitys" name="kehitys">
 <br>
 <br>
-<button type="button" onclick="lahetys()" name="laheta">Lähetä</button>
+<button type="button" onclick="lahetys()">Lähetä</button>
 
 </div>
       </body>
