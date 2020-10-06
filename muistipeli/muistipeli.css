@@ -1,0 +1,14 @@
+td{
+  background-color: #0b78df;
+  height: 215px;
+  width: 215px;
+  text-align: center;
+  font-size: 72px;
+  background-image: url("muistipeli kuvat/erere.png");
+  background-size: 215px 215px;
+}
+img{
+  height: 215px;
+  margin-bottom: -20px;
+}
+
